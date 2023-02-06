@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+gconst Discord = require('discord.js');
 const JavaParser = require("java-parser");
 
 
@@ -35,4 +35,4 @@ client.on('messageCreate', (message) => {
     });
 
 
-client.login('MTA3MDA1NjkxMTA4NjU3MTY4MQ.GOCoPb.TnOnRXnKtFSc4-9HSjk1ejsshROqsc0sBJTsnc');
+client.login(TOKEN);
