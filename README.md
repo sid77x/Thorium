@@ -37,7 +37,6 @@ cd Thorium
 ```git
 npm install discord.js
 npm install java-parser.js
-
 ```
 
 &nbsp;4. Create a `.env` file and add the following line to it, replacing `YOUR_DISCORD_BOT_TOKEN` with your actual Discord bot token.
