@@ -42,7 +42,7 @@ npm install java-parser.js
 &nbsp;4. Create a `.env` file and add the following line to it, replacing `YOUR_DISCORD_BOT_TOKEN` with your actual Discord bot token.
 
 ```makefile
-DISCORD_BOT_TOKEN=YOUR_DISCORD_BOT_TOKEN
+TOKEN=YOUR_DISCORD_BOT_TOKEN
 ```
 
 
@@ -65,5 +65,12 @@ node index.js
 Contributions are always welcome!
 
 If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
+
+
+## Upcoming Updates ✅
+• Printing The output for the code
+• Better return messages for errors
+• Using an external API 
+
 
 
