@@ -30,7 +30,6 @@ git clone https://github.com/sid77x/Thorium.git
 
 ```git
 cd Thorium
-
 ```
 
 &nbsp;3 . Install dependencies
