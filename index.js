@@ -1,5 +1,6 @@
-gconst Discord = require('discord.js');
+const Discord = require('discord.js');
 const JavaParser = require("java-parser");
+require("dotenv").config();
 
 
 const client = new Discord.Client({
@@ -19,11 +20,11 @@ client.on('ready', () => {
 
 client.on('messageCreate', (message) => {
     if (message.content.startsWith("!compile ")) {
-        const code = message.content.substr("!compile ".length);
+        const code = message.content.substring("!compile ".length);
         try {
           const parsedCode = JavaParser.parse(code);
           console.log(parsedCode);
-          // Implement logic to compile and run the parsed code
+          
           message.channel.send("Compilation and execution successful.");
         } catch (error) {
           console.error(error);
@@ -35,4 +36,4 @@ client.on('messageCreate', (message) => {
     });
 
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
